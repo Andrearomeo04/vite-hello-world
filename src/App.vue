@@ -1,18 +1,25 @@
-<script setup>
-import { AppTitle } from "./components/AppTitle.vue"; 
+<script>
+import AppTitle from './components/AppTitle.vue'
 
 export default {
   components: {
-    Apptitle
+    AppTitle
   }
 }
 </script>
 
 <template>
 
+<header>
+  <AppTitle />
+</header>
+<main>
+
+  
+</main>
 
 </template>
 
-<style scoped>
+<style>
 
 </style>
